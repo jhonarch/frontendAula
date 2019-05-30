@@ -1,6 +1,7 @@
 <div class="clear"></div>
 <button type="button" [routerLink]="['/userComponent']" class="btn btn-primary">Usuarios</button>
-<button type="button" [routerLink]="['/createUserComponent']" class="btn btn-success">Agregar usuarios</button>
+<!--<button type="button" [routerLink]="['/createUserComponent']" class="btn btn-success">Agregar usuarios</button> -->
+<button type="button" (click)="createUser()" class="btn btn-success">Agregar usuarios</button>
 <router-outlet></router-outlet>
 <!----
   <app-user></app-user>
